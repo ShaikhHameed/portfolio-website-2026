@@ -1,0 +1,43 @@
+
+.navContainer, .navAnimContainer{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    z-index: 2000;
+    will-change: tranform;
+}
+
+.navAnimContainer{
+    pointer-events: none;
+}
+
+.navAnimContainer div{
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    transform: translateX(100%);
+}
+.navAnimContainer div:nth-child(1){
+    background-color: red;
+}
+.navAnimContainer div:nth-child(2){
+    background-color: blue;
+}
+.navAnimContainer div:nth-child(3){
+    background-color: purple;
+}
+
+
+
+.navContainer{
+    transform: translateX(100%);
+    z-index: 5000;
+}
+
+.navContainer.active{
+    transform: translateX(0);
+}
