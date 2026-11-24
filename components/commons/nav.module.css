@@ -22,13 +22,13 @@
     transform: translateX(100%);
 }
 .navAnimContainer div:nth-child(1){
-    background-color: red;
+    background-color: #c98a8c;
 }
 .navAnimContainer div:nth-child(2){
-    background-color: blue;
+    background-color: #dfcb8f;
 }
 .navAnimContainer div:nth-child(3){
-    background-color: purple;
+    background-color: #c8d0d2;
 }
 
 
